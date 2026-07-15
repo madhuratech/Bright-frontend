@@ -12,7 +12,6 @@ import CityBakery from "../../assets/clients/CityBakery.jpg"
 import CovaiAnganam from "../../assets/clients/CovaiAnganam.png"
 import chennaiBakes from "../../assets/clients/chennaiBakes.jpg"
 import HotelAnand from "../../assets/clients/HotelAnand.png"
-// import HotelAryaasveg from "../../assets/clients/HotelAryaasveg.png"
 import HotelAryaas from "../../assets/clients/HotelAryaas.png"
 import HotelGowrikrishna from "../../assets/clients/HotelGowrikrishna.png"
 import HotelHari from "../../assets/clients/HotelHari.jpg"
@@ -31,42 +30,53 @@ import StarBriyani from "../../assets/clients/StarBriyani.png"
 import swami from "../../assets/clients/swami.png"
 import venco from "../../assets/clients/venco.webp"
 import Vidhya from "../../assets/clients/Vidhya.png"
-
-
-
-
+import Shanthi from "../../assets/clients/Shanthi.jpg"
+import ab from "../../assets/clients/ab.jpg"
+import Kumaran from "../../assets/clients/Kumaran.png"
+import Lt from "../../assets/clients/LT.png"
+import skm from "../../assets/clients/skm.jpg"
+import Nutrena from "../../assets/clients/Nutrena.png"
+import IB from "../../assets/clients/IB.png"
+import Kathirform from "../../assets/clients/Kathirfarm.jpg"
 
 
 const logos = [
-  Aariyaas,
-  Abbirami,
-  AnandhaasBakery,
-  anandhaasrestaurant,
-  Aroma,
-  Breeze,
-  chennaiBakes,
-  CityBakery,
-  CovaiAnganam,
-  HotelAnand,
-  // HotelAryaasveg,
+  kmch,
+  Lt,
+  SaravanBhavan,
   HotelAryaas,
+  anandhaasrestaurant,
+  Aariyaas,
+  Shanthi,
+  Kumaran,
+  Nutrena,
+  skm,
+  venco,
+  IB,
   HotelGowrikrishna,
   HotelHari,
   HotelRaamus,
-  jr,
-  kasthuri,
-  Kings,
-  kmch,
-  Krishna,
-  MSon,
-  Ragam,
-  SaravanBhavan,
-  SitaPaani,
+  HotelAnand,
+  Abbirami,
+  AnandhaasBakery,
+  chennaiBakes,
+  CityBakery,
+  Aroma,
+  Breeze,
+  CovaiAnganam,
+  Kathirform,
   Sreesubbu,
   StarBriyani,
-  swami,
-  venco,
+  SitaPaani,
+  Krishna,
+  MSon,
+  kasthuri,
+  Kings,
   Vidhya,
+  swami,
+  ab,
+  Ragam,
+
 ];
 
 const ClientsSection = () => {

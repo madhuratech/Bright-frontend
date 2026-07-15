@@ -49,14 +49,12 @@ import Twoburnerchinesecookingrange from "../../assets/ce/Twoburnerchinesecookin
 
 //ee
 import Doubleskinexhausthoodwebp from "../../assets/ee/Doubleskinexhausthoodwebp.webp"
-// import Ductingsystem from "../../assets/ee/Ductingsystem.webp"
 import Exhausthood from "../../assets/ee/Exhausthood.webp"
 import Walltypeexhausthood from "../../assets//ee/Walltypeexhausthood.webp"
 
 //pe
 import Coconutscrapper from "../../assets/pe/Coconutscrapper.webp"
 import Conventionalwetgrinder from "../../assets/pe/Conventionalwetgrinder.webp"
-import Conveyorvegetablecutter from "../../assets/pe/Conveyorvegetablecutter.webp"
 import Cuttermixer from "../../assets/pe/Cuttermixer.webp"
 import Doughkneaderwebp from "../../assets/pe/Doughkneaderwebp.webp"
 import Granitetoptable from "../../assets/pe/Granitetoptable.webp"
@@ -75,7 +73,6 @@ import Ricewasher from "../../assets/pe/Ricewasher.webp"
 import SSsupervisordesk from "../../assets/pe/SSsupervisordesk.webp"
 import SSworktable from "../../assets/pe/SSworktable.webp"
 import Tiltingdrinder from "../../assets/pe/Tiltingdrinder.webp"
-import vegetablecutter from "../../assets/pe/vegetablecutter.webp"
 import Worktable from "../../assets/pe/Worktable.webp"
 
 //se
@@ -163,7 +160,6 @@ const productsData = {
   { image: Fourbrnerrangewithoven, title: "Four Burner Range with Oven" },
   { image: Halwamakingmachine, title: "Halwa Making Machine" },
   { image: Heavydutystockpotburner, title: "Heavy Duty Stock Pot Burner" },
-  // { image: Hotcasewithburner, title: "Hot Case with Burner" },
   { image: Hotcasewithburners, title: "Hot Case with Burners" },
   { image: Hotplate, title: "Hot Plate" },
   { image: Hotplatewithgriddle, title: "Hot Plate with Griddle" },
@@ -181,7 +177,6 @@ const productsData = {
 
 "Exhaust Equipments": [
   { image: Doubleskinexhausthoodwebp, title: "Double Skin Exhaust Hood" },
-  // { image: Ductingsystem, title: "Ducting System" },
   { image: Exhausthood, title: "Exhaust Hood" },
   { image: Walltypeexhausthood, title: "Wall Type Exhaust Hood" }
 ],
@@ -189,7 +184,6 @@ const productsData = {
 "Preparation Equipments": [
   { image: Coconutscrapper, title: "Coconut Scraper" },
   { image: Conventionalwetgrinder, title: "Conventional Wet Grinder" },
-  { image: Conveyorvegetablecutter, title: "Conveyor Vegetable Cutter" },
   { image: Cuttermixer, title: "Cutter Mixer" },
   { image: Doughkneaderwebp, title: "Dough Kneader" },
   { image: Granitetoptable, title: "Granite Top Table" },
@@ -208,8 +202,6 @@ const productsData = {
   { image: SSsupervisordesk, title: "SS Supervisor Desk" },
   { image: SSworktable, title: "SS Work Table" },
   { image: Tiltingdrinder, title: "Tilting Grinder" },
-  { image: vegetablecutter, title: "Vegetable Cutter" },
-  // { image: Vegetablecutters, title: "Vegetable Cutters" },
   { image: Worktable, title: "Work Table" }
 ],
 
@@ -218,13 +210,11 @@ const productsData = {
   { image: Bainmarie, title: "Bain Marie" },
   { image: Banimariecounterandtrayslider, title: "Bain Marie Counter and Tray Slider" },
   { image: Billingcounterwithcomputerprovision, title: "Billing Counter with Computer Provision" },
-  // { image: Billingounterwithcomputerprovisions, title: "Billing Counter with Computer Provisions" },
   { image: Chatcounter, title: "Chaat Counter" },
   { image: Cyclingteacounter, title: "Cycling Tea Counter" },
   { image: Fireextinguishercabinet, title: "Fire Extinguisher Cabinet" },
   { image: Foodservicetrollry, title: "Food Service Trolley" },
   { image: Fourtierrack, title: "Four Tier Rack" },
-  // { image: Fruitdisplayrack, title: "Fruit Display Rack" },
   { image: Fruitdisplayracks, title: "Fruit Display Racks" },
   { image: Fruitvegetabledisplaycounter, title: "Fruit & Vegetable Display Counter" },
   { image: Housingkeepingtrolley, title: "Housekeeping Trolley" },
