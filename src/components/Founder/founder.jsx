@@ -1,14 +1,16 @@
+import profile from "../../assets/profile/profile.JPEG"
+
 const Founder = () => {
   return (
     <section className="bg-[#edf2f8] py-14 md:py-20">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-2 items-center">
 
           {/* Left Side */}
           <div className="flex justify-center lg:justify-start">
             <div className="relative w-full max-w-[320px] sm:max-w-[400px] lg:max-w-[450px]">
               <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
+                src={profile}
                 alt="Founder"
                 className="w-full h-[400px] sm:h-[500px] lg:h-[550px] object-cover rounded-tl-[30px] sm:rounded-tl-[50px] rounded-br-[30px] sm:rounded-br-[50px] shadow-lg"
               />

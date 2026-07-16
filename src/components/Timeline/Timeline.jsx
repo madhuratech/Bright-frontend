@@ -11,42 +11,42 @@ const timelineData = [
     title: "Journey Starts",
     description:
       "Founded in a 500 sq. ft. workshop crafting SS furniture for restaurants, hotels & bakeries with a big vision from a small space.",
-    image:time1,
+    image: time1,
   },
   {
     year: "2010",
     title: "Foundation Established",
     description:
       "Expanded into full-scale kitchen equipment manufacturing custom-built, precision-fabricated, never compromising on grade or material.",
-    image:time2,
+    image: time2,
   },
   {
     year: "2015",
     title: "Top Commercial Kitchens",
     description:
       "Serving top commercial kitchens across India and globally hotels, cloud kitchens, hospitals & institutions with tailor-made solutions, delivered on time, every time.",
-    image:time4,
+    image: time4,
   },
   {
     year: "2023",
     title: "ISO Certified",
     description:
       "Achieved ISO certification a formal recognition of our commitment to international quality standards and operational excellence.",
-    image:time3,
+    image: time3,
   },
   {
     year: "2025",
     title: "Skilled Production Team",
     description:
       "Grew from a 500 sq. ft. workshop to a 15,000 sq. ft. state-of-the-art manufacturing facility, equipped with precision CNC machinery and a skilled production team.",
-    image:time2,
+    image: time2,
   },
   {
     year: "2026",
     title: "Trusted Commercial Kitchen Solution",
     description:
       "Bright Industries stands as a fully trusted name for complete, turnkey commercial kitchen solutions custom-built, installed, and serviced end-to-end.",
-    image:time6,
+    image: time6,
   }
 ];
 
@@ -54,7 +54,7 @@ const Timeline = () => {
   return (
     <section className="bg-[#f7f7f5] py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        
+
         {/* Heading */}
         <div className="max-w-3xl mb-16">
           <span className="uppercase tracking-[4px] text-sm text-[#8a8a8a] font-medium">
@@ -82,23 +82,27 @@ const Timeline = () => {
               {/* Card */}
               <div className="group bg-white rounded-[28px] overflow-hidden border border-[#ececec] hover:shadow-2xl transition-all duration-500">
                 <div className="grid lg:grid-cols-2 items-center">
-                  
+
                   {/* Image */}
                   <div className={`${index % 2 !== 0 ? "lg:order-2" : ""}`}>
-                    <div className="overflow-hidden h-full">
+                    <div
+                      className={`overflow-hidden h-full ${index % 2 === 0
+                          ? "lg:rounded-l-[28px]"
+                          : "lg:rounded-r-[28px]"
+                        }`}
+                    >
                       <img
                         src={item.image}
                         alt={item.title}
-                        className="w-full h-[260px] md:h-[320px] object-cover group-hover:scale-105 transition-transform duration-700"
+                        className="w-full h-[260px] md:h-[390px] object-cover group-hover:scale-105 transition-transform duration-700"
                       />
                     </div>
                   </div>
 
                   {/* Content */}
                   <div
-                    className={`p-8 md:p-12 ${
-                      index % 2 !== 0 ? "lg:order-1" : ""
-                    }`}
+                    className={`p-8 md:p-12 ${index % 2 !== 0 ? "lg:order-1" : ""
+                      }`}
                   >
                     <div className="flex items-center justify-between">
                       <span className="text-5xl md:text-6xl font-bold text-[#767676] leading-none">
