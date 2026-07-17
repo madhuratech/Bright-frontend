@@ -6,6 +6,7 @@ import Alfahamgrill from "../../assets/afm/Alfahamgrill.webp"
 import Chickengiiller from "../../assets/afm/Chickengiiller.webp"
 import Shawarmamachine from "../../assets/afm/Shawarmamachine.webp"
 import Tandooripot from "../../assets/afm/Tandooripot.webp"
+import Barbeque from "../../assets/afm/Barbeque.webp"
 
 
 //be
@@ -43,6 +44,7 @@ import Teacoffeeburnertablewithwarmer from "../../assets/ce/Teacoffeeburnertable
 import Tiltingboilingpan from "../../assets/ce/Tiltingboilingpan.webp"
 import Tiltingbraisingpan from "../../assets/ce/Tiltingbraisingpan.webp"
 import Twoburnerchinesecookingrange from "../../assets/ce/Twoburnerchinesecookingrange.webp"
+import Dosarangewithsplash from "../../assets/ce/Dosarangewithsplash.webp"
 
 
 
@@ -50,7 +52,10 @@ import Twoburnerchinesecookingrange from "../../assets/ce/Twoburnerchinesecookin
 //ee
 import Doubleskinexhausthoodwebp from "../../assets/ee/Doubleskinexhausthoodwebp.webp"
 import Exhausthood from "../../assets/ee/Exhausthood.webp"
-import Walltypeexhausthood from "../../assets//ee/Walltypeexhausthood.webp"
+import Walltypeexhausthood from "../../assets/ee/Walltypeexhausthood.webp"
+import Exhausthooddoubleplenum from "../../assets/ee/Exhausthooddoubleplenum.webp"
+import Exhaust from "../../assets/ee/Exhaust.webp"
+import Exhaustdouble from "../../assets/ee/Exhaustdouble.webp"
 
 //pe
 import Coconutscrapper from "../../assets/pe/Coconutscrapper.webp"
@@ -117,6 +122,31 @@ import Twosinkunit from "../../assets/we/Twosinkunit.webp"
 import Vegetablecleaningtablewithsinkstorage from "../../assets/we/Vegetablecleaningtablewithsinkstorage.webp"
 import Worktablewithsink from "../../assets/we/Worktablewithsink.webp"
 
+// Bar unit
+import Backbarcooler from "../../assets/barunit/Backbarcooler.webp"
+import Barcounter from "../../assets/barunit/Barcounter.webp"
+import Bartenderblenderstation from "../../assets/barunit/Bartenderblenderstation.webp"
+import Bartenderliquorstation from "../../assets/barunit/Bartenderliquorstation.webp"
+import Bartenderwastebin from "../../assets/barunit/Bartenderwastebin.webp"
+import BartenderIcechest from "../../assets/barunit/BartenderIcechest.webp"
+
+// Display Counter
+import chocolatedisplaycounter from "../../assets/dc/chocolatedisplaycounter.webp"
+import colddisplaycounter from "../../assets/dc/colddisplaycounter.webp"
+import Coldsaladdisplaycounter from "../../assets/dc/Coldsaladdisplaycounter.webp"
+import SSsideopendisplaycounter from "../../assets/dc/SSsideopendisplaycounter.webp"
+import SSbentdisplaycounter from "../../assets/dc/SSbentdisplaycounter.webp"
+import SScurvedhotlillydisplaycounter from "../../assets/dc/SScurvedhotlillydisplaycounter.webp"
+import SSmarbledisplaycounter from "../../assets/dc/SSmarbledisplaycounter.webp"
+import SSPatisserieDisplayCounter from "../../assets/dc/SSPatisserieDisplayCounter.webp"
+import SSRemovableglassdisplaycounter from "../../assets/dc/SSRemovableglassdisplaycounter.webp"
+import SSsaladdisplaycounter from "../../assets/dc/SSsaladdisplaycounter.webp"
+
+// Steam Counter
+import GlassTypeDoubleJacketedVessel from "../../assets/steam/GlassTypeDoubleJacketedVessel.webp";
+import IdlySteamer from "../../assets/steam/IdlySteamer.webp";
+import RiceCookingVessel from "../../assets/steam/RiceCookingVessel.webp";
+import SteamBoiler from "../../assets/steam/SteamBoiler.webp";
 
 const categories = [
     "All",
@@ -127,7 +157,9 @@ const categories = [
     "Service Equipments",
     "Preparation Equipments",
     "Washing Equipments",
-
+    "Bar Units",
+    "Display Counter",
+    "Steam Equipments"
 ];
 
 const productsData = {
@@ -135,10 +167,10 @@ const productsData = {
   { image: Alfahamgrill, title: "Al Faham Grill" },
   { image: Chickengiiller, title: "Chicken Griller" },
   { image: Shawarmamachine, title: "Shawarma Machine" },
-  { image: Tandooripot, title: "Tandoori Pot" }
-],
-
-"Bakery Equipments": [
+  { image: Tandooripot, title: "Tandoori Pot" },
+  { image: Barbeque, title: "Barbeque" }
+ ],
+ "Bakery Equipments": [
   { image: Chaatcounterwithburner, title: "Chaat Counter with Burner" },
   { image: Teacoffeecounter, title: "Tea Coffee Counter" }
 ],
@@ -172,13 +204,19 @@ const productsData = {
   { image: Teacoffeeburnertablewithwarmer, title: "Tea Coffee Burner Table with Warmer" },
   { image: Tiltingboilingpan, title: "Tilting Boiling Pan" },
   { image: Tiltingbraisingpan, title: "Tilting Braising Pan" },
-  { image: Twoburnerchinesecookingrange, title: "Two Burner Chinese Cooking Range" }
+  { image: Twoburnerchinesecookingrange, title: "Two Burner Chinese Cooking Range" },
+  { image: Dosarangewithsplash, title: "Dosa Range with Splash" }
 ],
 
 "Exhaust Equipments": [
   { image: Doubleskinexhausthoodwebp, title: "Double Skin Exhaust Hood" },
   { image: Exhausthood, title: "Exhaust Hood" },
-  { image: Walltypeexhausthood, title: "Wall Type Exhaust Hood" }
+  { image: Walltypeexhausthood, title: "Wall Type Exhaust Hood" },
+  {image: Exhausthooddoubleplenum, title: "Exhaust Hood Double Plenum"},
+  {image: Exhaust, title: "Exhaust"},
+  {image: Exhaustdouble, title: "Exhaust Double"}
+  
+
 ],
 
 "Preparation Equipments": [
@@ -247,7 +285,39 @@ const productsData = {
   { image: Twosinkunit, title: "Two Sink Unit" },
   { image: Vegetablecleaningtablewithsinkstorage, title: "Vegetable Cleaning Table with Sink & Storage" },
   { image: Worktablewithsink, title: "Work Table with Sink" }
-]}
+],
+
+"Bar Units": [
+  { image: Backbarcooler, title: "Back bar cooler" },
+  { image: Barcounter, title: "Bar Counter" },
+  { image: Bartenderblenderstation, title: "Bartender blender station" },
+  { image: BartenderIcechest, title: "Bartender Ice Chest" },
+  { image: Bartenderliquorstation, title: "Bartender liquor station" },
+  { image: Bartenderwastebin, title: "Bartender waste bin" }
+  
+],
+
+"Steam Equipments":[
+  {image: GlassTypeDoubleJacketedVessel, title: "Glass Type Double Jacketed Vessel"},
+  {image: IdlySteamer, title: "IdlySteamer"},
+  {image: RiceCookingVessel, title: "Rice Cooking Vessel"},
+  {image: SteamBoiler, title: "Steam Boiler"}
+]
+,
+"Display Counter": [
+  {image: chocolatedisplaycounter, title: "Chocolate Display Counter"},
+  {image: colddisplaycounter, title: "Cold Display Counter"},
+  {image: Coldsaladdisplaycounter, title:"Cold Salad Display Counter"},
+  {image: SSsideopendisplaycounter, title: "SS side Open Display Counter"},
+  {image: SSbentdisplaycounter, title:"SS Bent display counter"},
+  {image: SScurvedhotlillydisplaycounter, title: "SS Curved Hot Lilly Display Counter"},
+  {image: SSmarbledisplaycounter, title: "SS Marbled Display Counter"},
+  {image: SSPatisserieDisplayCounter, title: "SS Patisserie Display Counter"},
+  {image: SSRemovableglassdisplaycounter, title: "SS Removable Glass Display Counter"},
+  {image: SSsaladdisplaycounter, title:"SS Salad Display Counter"}
+]
+
+}
 
 
 
