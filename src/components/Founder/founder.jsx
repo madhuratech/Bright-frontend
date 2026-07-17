@@ -26,33 +26,32 @@ const Founder = () => {
 
             {/* Heading */}
             <h2 className="text-[#0A59BE] text-3xl sm:text-4xl md:text-5xl font-medium leading-tight mb-6 md:mb-8">
-              Vision Behind The
+             Meet Our Founder,  
               <br />
-              Foundation
+              Mr. Abdul Nazar
             </h2>
 
             {/* Content */}
             <div className="space-y-4 md:space-y-5 text-gray-600 text-sm sm:text-base leading-relaxed max-w-[700px] mx-auto lg:ml-auto lg:mr-0">
               <p>
-                Bright Industries was founded with a vision to deliver reliable
-                stainless steel and industrial solutions built on quality,
-                precision, and long-term performance. From the beginning, the
-                focus has been on creating dependable products that meet modern
-                commercial and operational requirements.
+               Mr. Abdul Nazar's vision and engineering expertise have been the driving force behind. Bright Industries' success.
+                His entrepreneurial journey began with a small enterprise manufacturing furniture for hotels and restaurants, 
+                where he developed a deep understanding of the hospitality industry's operational needs.
               </p>
 
               <p>
-                With a strong commitment to craftsmanship and customer
-                satisfaction, the company has steadily grown by serving hotels,
-                hospitals, institutions, catering facilities, and industrial
-                sectors with durable and efficient manufacturing solutions.
+                Recognizing the growing demand for reliable and customized commercial kitchen solutions, he founded Bright Industries in 2003.
+                He identified a critical gap between standard equipment and the unique requirements of professional kitchens.
+                This unwavering commitment to quality, durability, and precision has established Bright Industries as a trusted name in the industry.
               </p>
 
               <p>
-                Under the founder's leadership, Bright Industries continues to
-                move forward with a focus on innovation, consistent quality, and
-                trusted industry relationships while maintaining high standards
-                in every stage of fabrication and production.
+                His expertise soon expanded into the hatchery sector, where Bright Industries became recognized for designing and fabricating complete hatchery solutions,
+                including conveyor systems, packing machines, stainless steel doors, and other specialized equipment. The same engineering excellence and attention to detail
+                that defined the company's success in commercial kitchens continue to set new standards across every industry it serves.
+              </p>
+              <p>
+                Today, Mr. Nazar's hands-on approach, technical knowledge, and commitment to continuous improvement continue to guide Bright Industries.
               </p>
             </div>
           </div>
