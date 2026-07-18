@@ -1,201 +1,152 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
-import Shawarma from "../../assets/products/Shawarma.jpg"
-import FourBurner from "../../assets/products/FourBurner.jpg"
-import Conveyor from "../../assets/products/Conveyor.jpg"
-import Trolley from "../../assets/products/Trolley.jpg"
-import Dishwasher from "../../assets/products/Dishwasher.jpg"
-import exhaust from "../../assets/products/exhaust.png"
 
+
+// Product Images
+import Shawarma from "../../assets/products/Shawarma.webp";
+import FourBurner from "../../assets/products/FourBurner.webp";
+import Conveyor from "../../assets/products/Conveyor.webp";
+import Trolley from "../../assets/products/Trolley.webp";
+import Dishwasher from "../../assets/products/Dishwasher.webp";
+import Exhaust from "../../assets/products/exhaust.webp";
+import FadeInSection from "../Fade/FadeInSection";
 
 const products = [
   {
-    image:Shawarma,
+    image: Shawarma,
     title: "Arabian Food",
   },
   {
-    image:FourBurner,
+    image: FourBurner,
     title: "Cooking Equipments",
   },
   {
-    image:Conveyor,
+    image: Conveyor,
     title: "Preparation Equipment",
   },
   {
-    image:Trolley,
+    image: Trolley,
     title: "Service Equipment",
   },
   {
-    image:Dishwasher,
+    image: Dishwasher,
     title: "Washing Equipment",
   },
   {
-    image:exhaust,
+    image: Exhaust,
     title: "Exhaust Equipments",
   },
 ];
 
-const containerVariants = {
-  hidden: {},
-  show: {
-    transition: {
-      staggerChildren: 0.15,
-    },
-  },
-};
-
-const cardVariants = {
-  hidden: {
-    opacity: 0,
-    y: 60,
-  },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      ease: [0.22, 1, 0.36, 1],
-    },
-  },
-};
-
 const ProductCard = ({ item }) => {
-  const [loaded, setLoaded] = useState(false);
-
   return (
-    <motion.div
-      variants={cardVariants}
-      whileHover={{
-        y: -10,
-        transition: { duration: 0.3 },
-      }}
-      className="group relative h-[420px] rounded-[28px] overflow-hidden bg-gray-200 shadow-sm"
+    <div
+      className="
+        group
+        relative
+        h-[420px]
+        overflow-hidden
+        rounded-[28px]
+        bg-gray-100
+        shadow-sm
+        transition-all
+        duration-500
+        hover:-translate-y-2
+        hover:shadow-2xl
+      "
     >
-      {!loaded && (
-        <div className="absolute inset-0 animate-pulse bg-gray-300" />
-      )}
-
-      <motion.img
+      {/* Product Image */}
+      <img
         src={item.image}
         alt={item.title}
         loading="lazy"
         decoding="async"
-        width="600"
-        height="420"
-        onLoad={() => setLoaded(true)}
-        whileHover={{ scale: 1.05 }}
-        transition={{ duration: 0.6 }}
-        className={`w-full h-full object-cover ${
-          loaded ? "opacity-100" : "opacity-0"
-        }`}
+        width={600}
+        height={420}
+        className="
+          h-full
+          w-full
+          object-cover
+          transition-transform
+          duration-700
+          group-hover:scale-105
+        "
       />
 
-      <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.2 }}
-        className="absolute bottom-0 left-0 w-full p-6"
-      >
-        <p className="text-white/70 text-sm mb-2">
+      {/* Content */}
+      <div className="absolute bottom-0 left-0 w-full p-6">
+        <p className="mb-2 text-sm text-white/70">
           Premium Industrial Solutions
         </p>
 
-        <h3 className="text-white text-2xl font-semibold leading-tight">
+        <h3 className="text-2xl font-semibold text-white">
           {item.title}
         </h3>
-      </motion.div>
-    </motion.div>
+      </div>
+    </div>
   );
 };
 
 const ProductSection = () => {
   return (
-    <section className="bg-[#E9EEF5] py-10 md:py-14 px-4 overflow-hidden">
-      <div className="max-w-7xl mx-auto">
+    <section className="overflow-hidden bg-[#E9EEF5] px-4 py-10 md:py-14">
+      <div className="mx-auto max-w-7xl">
+
         {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 60 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{
-            duration: 0.9,
-            ease: [0.22, 1, 0.36, 1],
-          }}
-          className="flex flex-col lg:flex-row justify-between items-end gap-10 mb-14"
-        >
-          <div className="w-full lg:w-[55%]">
-            <motion.span
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="inline-block px-5 py-2 rounded-full bg-[#0E5CC8]/10 text-[#0E5CC8] text-sm font-medium tracking-wide mb-5"
-            >
-              WHAT WE MANUFACTURE
-            </motion.span>
+        <FadeInSection>
+          <div className="mb-14 flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
+            {/* Left Content */}
+            <div className="w-full lg:w-[55%]">
+              <span className="mb-5 inline-block rounded-full bg-[#0E5CC8]/10 px-5 py-2 text-sm font-medium tracking-wide text-[#0E5CC8]">
+                WHAT WE MANUFACTURE
+              </span>
 
-            <motion.h2
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{
-                delay: 0.3,
-                duration: 0.8,
-              }}
-              className="text-[#111] text-4xl md:text-5xl lg:text-6xl font-light leading-[1.1]"
-            >
-              Engineered Equipment For Modern Food Operations
-            </motion.h2>
+              <h2 className="text-4xl font-light leading-[1.1] text-[#111] md:text-5xl lg:text-6xl">
+                Engineered Equipment For Modern Food Operations
+              </h2>
+            </div>
+
+            {/* Right Content */}
+            <div className="w-full lg:w-[40%]">
+              <p className="text-base leading-relaxed text-[#555]">
+                From food preparation stations to complete kitchen
+                infrastructure, our solutions are crafted to deliver
+                superior functionality, durability, and operational
+                excellence for businesses of every scale.
+              </p>
+
+              <button
+                className="
+                  mt-6
+                  rounded-full
+                  bg-[#0E5CC8]
+                  px-8
+                  py-3
+                  font-medium
+                  text-white
+                  transition-all
+                  duration-300
+                  hover:scale-105
+                  hover:bg-[#084AA8]
+                  active:scale-95
+                "
+              >
+                Browse Products
+              </button>
+            </div>
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 60 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.4,
-              duration: 0.8,
-            }}
-            className="w-full lg:w-[40%]"
-          >
-            <p className="text-[#555] text-base leading-relaxed">
-             From food preparation stations to complete kitchen infrastructure, 
-             our solutions are crafted to deliver superior functionality, durability, 
-             and operational excellence for businesses of every scale.
-            </p>
-
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-              }}
-              whileTap={{
-                scale: 0.95,
-              }}
-              className="mt-6 bg-[#0E5CC8] text-white px-8 py-3 rounded-full font-medium"
-            >
-              Browse Products
-            </motion.button>
-          </motion.div>
-        </motion.div>
+        </FadeInSection>
 
         {/* Product Grid */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="show"
-          viewport={{
-            once: true,
-            amount: 0.1,
-          }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-        >
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((item, index) => (
-            <ProductCard key={index} item={item} />
+            <FadeInSection key={item.title} delay={index * 100}>
+              <ProductCard item={item} />
+            </FadeInSection>
           ))}
-        </motion.div>
+        </div>
+
       </div>
     </section>
   );
