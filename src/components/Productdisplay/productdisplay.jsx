@@ -9,11 +9,6 @@ import Tandooripot from "../../assets/afm/Tandooripot.webp"
 import Barbeque from "../../assets/afm/Barbeque.webp"
 
 
-//be
-import Chaatcounterwithburner from "../../assets/be/Chaatcounterwithburner.webp"
-import Teacoffeecounter from "../../assets/be/Teacoffeecounter.webp"
-
-
 //ce
 import Bricktypemilkboilerstove from "../../assets/ce/Bricktypemilkboilerstove.webp"
 import Bricktypemilkboilingburner from "../../assets/ce/Bricktypemilkboilingburner.webp"
@@ -45,8 +40,6 @@ import Tiltingboilingpan from "../../assets/ce/Tiltingboilingpan.webp"
 import Tiltingbraisingpan from "../../assets/ce/Tiltingbraisingpan.webp"
 import Twoburnerchinesecookingrange from "../../assets/ce/Twoburnerchinesecookingrange.webp"
 import Dosarangewithsplash from "../../assets/ce/Dosarangewithsplash.webp"
-
-
 
 
 //ee
@@ -151,15 +144,14 @@ import SteamBoiler from "../../assets/steam/SteamBoiler.webp";
 const categories = [
     "All",
     "Arabian Food Machinery",
-    "Bakery Equipments",
-    "Cooking Equipments",
-    "Exhaust Equipments",
-    "Service Equipments",
-    "Preparation Equipments",
-    "Washing Equipments",
     "Bar Units",
+    "Cooking Equipments",
     "Display Counter",
-    "Steam Equipments"
+    "Exhaust Equipments",
+    "Preparation Equipments",
+    "Service Equipments",
+    "Steam Equipments",
+    "Washing Equipments",
 ];
 
 const productsData = {
@@ -170,10 +162,7 @@ const productsData = {
   { image: Tandooripot, title: "Tandoori Pot" },
   { image: Barbeque, title: "Barbeque" }
  ],
- "Bakery Equipments": [
-  { image: Chaatcounterwithburner, title: "Chaat Counter with Burner" },
-  { image: Teacoffeecounter, title: "Tea Coffee Counter" }
-],
+
 
 "Cooking Equipments": [
   { image: Bricktypemilkboilerstove, title: "Brick Type Milk Boiler Stove" },
