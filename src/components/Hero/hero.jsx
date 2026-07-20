@@ -50,9 +50,9 @@ const HeroSection = () => {
           <div className="max-w-4xl">
 
             {/* Badge */}
-            <div className="inline-block w-fit rounded-full border border-white/20 bg-white/20 px-5 py-2 text-xs font-medium uppercase tracking-wider text-white backdrop-blur-md md:text-sm">
+            {/* <div className="inline-block w-fit rounded-full border border-white/20 bg-white/20 px-5 py-2 text-xs font-medium uppercase tracking-wider text-white backdrop-blur-md md:text-sm">
               Reliable Commercial Kitchen Experts
-            </div>
+            </div> */}
 
             {/* Heading */}
             <h1 className="mt-6 text-4xl font-medium leading-tight text-white md:text-6xl lg:text-7xl">
