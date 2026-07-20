@@ -21,39 +21,39 @@ const Navbar = () => {
   const productLinks = [
     {
       name: "Arabian Food Machinery",
-      path: "/arabian",
+      path: "/arabianFoodmachinery",
     },
     {
       name: "Bar Counter",
-      path: "/bar",
+      path: "/barCounter",
     },
     {
       name: "Cooking Equipment",
-      path: "/cooking",
+      path: "/cookingEquipment",
     },
     {
       name: "Display Counter",
-      path: "/display",
+      path: "/displayEquipment",
     },
     {
       name: "Exhaust Equipment",
-      path: "/exhaust",
+      path: "/exhaustEquipment",
     },
     {
       name: "Preparation Equipment",
-      path: "/preparation",
+      path: "/preparationEquipment",
     },
     {
       name: "Steam Equipment",
-      path: "/steam",
+      path: "/steamEquipment",
     },
     {
       name: "Service Equipment",
-      path: "/serviceEquip",
+      path: "/serviceEquipment",
     },
     {
       name: "Washing Equipment",
-      path: "/washing",
+      path: "/washingEquipment",
     },
 
 

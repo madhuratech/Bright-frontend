@@ -32,15 +32,15 @@ function App() {
         <Route path="/consultant" element={<Consultant />} />
 
         {/* Product */}
-        <Route path="/arabian" element={<Arabian />} />
-        <Route path="/preparation" element={<Preparation />} />
-        <Route path="/bar" element={<Bar />} />
-        <Route path="/cooking" element={<Cooking />} />
-        <Route path="/display" element={<Display />} />
-        <Route path="/exhaust" element={<Exhaust />} />
-        <Route path="/serviceEquip" element={<ServiceEquip/>}/>
-        <Route path="/steam" element={<Steam/>}/>
-        <Route path="/washing" element={<Washing/>}/>
+        <Route path="/arabianFoodmachinery" element={<Arabian />} />
+        <Route path="/preparationEquipment" element={<Preparation />} />
+        <Route path="/barCounter" element={<Bar />} />
+        <Route path="/cookingEquipment" element={<Cooking />} />
+        <Route path="/displayEquipment" element={<Display />} />
+        <Route path="/exhaustEquipment" element={<Exhaust />} />
+        <Route path="/serviceEquipment" element={<ServiceEquip/>}/>
+        <Route path="/steamEquipment" element={<Steam/>}/>
+        <Route path="/washingEquipment" element={<Washing/>}/>
       </Routes>
 
       <WhatsAppButton />

@@ -38,13 +38,12 @@ const Steam = () => {
                 {/* Content */}
                 <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12">
                     <div className="max-w-3xl">
-                        <h1 className="text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+                        <h1 className="mt-10 text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
                             Steam Equipments
                         </h1>
 
                         <p className="mt-6 max-w-xl text-white text-sm sm:text-base md:text-lg leading-relaxed">
-                            Offering expert guidance for planning efficient commercial
-                            kitchens tailored to your specific requirements.
+                            Explore premium steam equipment designed for commercial kitchens, delivering efficient steaming, reliable performance, energy savings, and consistent cooking results every day.
                         </p>
 
                         <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
@@ -59,27 +58,25 @@ const Steam = () => {
                 <div className="max-w-7xl mx-auto px-6 lg:px-12">
                     <h2 className="text-[#0057D9] font-light leading-tight">
                         <span className="block text-4xl md:text-5xl lg:text-6xl">
-                            Commercial Kitchen Equipment
+                            Steam Equipment
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Manufacturers & Stainless Steel
+                            for Professional
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Fabrication Experts
+                            Kitchen Excellence
                         </span>
                     </h2>
 
                     <div className="mt-8 max-w-5xl">
                         <p className="text-[#555555] text-sm md:text-base leading-relaxed">
-                            Bright Industries delivers precision-engineered commercial
-                            kitchen equipment and stainless steel fabrication solutions
-                            built for durability, hygiene, and operational efficiency.
-                            From industrial cooking systems to custom fabrication projects,
-                            our products are designed to support high-volume commercial
-                            environments across hospitality, healthcare, institutional,
-                            and industrial sectors.
+                            As a trusted supplier of commercial steam equipment, we provide high-quality solutions
+                            designed for efficiency, durability, and reliable performance. Our experienced team delivers
+                            advanced steam cooking systems, customized equipment, and dependable support to help restaurants,
+                            hotels, catering services, and food businesses improve productivity, maintain food quality,
+                            and achieve seamless kitchen operations.
                         </p>
                     </div>
                 </div>
@@ -100,9 +97,8 @@ const Steam = () => {
                             </h2>
 
                             <p className="mt-4 max-w-3xl mx-auto text-[#666666] leading-relaxed">
-                                Discover our premium range of commercial kitchen equipment
-                                designed to deliver superior performance, durability, and
-                                operational efficiency.
+                                Reliable steam equipment delivering efficient cooking, superior durability,
+                                energy efficiency, and consistent performance for commercial kitchens every day.
                             </p>
                         </div>
 

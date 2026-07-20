@@ -51,13 +51,12 @@ const Display = () => {
                 {/* Content */}
                 <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12">
                     <div className="max-w-3xl">
-                        <h1 className="text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+                        <h1 className="mt-10 text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
                             Display Counters
                         </h1>
 
                         <p className="mt-6 max-w-xl text-white text-sm sm:text-base md:text-lg leading-relaxed">
-                            Offering expert guidance for planning efficient commercial
-                            kitchens tailored to your specific requirements.
+                            Showcase your products with stylish display counters designed to keep food fresh, attract customers, and enhance every retail or dining space
                         </p>
 
                         <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
@@ -71,28 +70,27 @@ const Display = () => {
             <section className="bg-[#F0F4FA] py-16 lg:py-24">
                 <div className="max-w-7xl mx-auto px-6 lg:px-12">
                     <h2 className="text-[#0057D9] font-light leading-tight">
-                        <span className="block text-4xl md:text-5xl lg:text-6xl">
-                            Commercial Kitchen Equipment
+                        <span className="block text-4xl md:text-5xl lg:text-6xl ">
+                            Display Counters
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Manufacturers & Stainless Steel
+                            That Showcase
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Fabrication Experts
+                            Products with Style
                         </span>
                     </h2>
 
                     <div className="mt-8 max-w-5xl">
                         <p className="text-[#555555] text-sm md:text-base leading-relaxed">
-                            Bright Industries delivers precision-engineered commercial
-                            kitchen equipment and stainless steel fabrication solutions
-                            built for durability, hygiene, and operational efficiency.
-                            From industrial cooking systems to custom fabrication projects,
-                            our products are designed to support high-volume commercial
-                            environments across hospitality, healthcare, institutional,
-                            and industrial sectors.
+                            An attractive display can make a lasting impression on your customers.
+                            Bright Industries offers premium display counters that combine elegant design
+                            with dependable performance to keep food fresh and visually appealing.
+                            Ideal for bakeries, cafés, restaurants, supermarkets, sweet shops, and food outlets,
+                            our display solutions provide excellent visibility, efficient cooling, and durable construction,
+                            helping businesses present their products with confidence while improving the overall customer experience.
                         </p>
                     </div>
                 </div>
@@ -113,9 +111,7 @@ const Display = () => {
                             </h2>
 
                             <p className="mt-4 max-w-3xl mx-auto text-[#666666] leading-relaxed">
-                                Discover our premium range of commercial kitchen equipment
-                                designed to deliver superior performance, durability, and
-                                operational efficiency.
+                                Modern display counters designed to preserve freshness, enhance product visibility, and create an appealing presentation for commercial food businesses.
                             </p>
                         </div>
 

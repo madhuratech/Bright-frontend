@@ -55,7 +55,7 @@ const HeroSection = () => {
             </div> */}
 
             {/* Heading */}
-            <h1 className="mt-6 text-4xl font-medium leading-tight text-white md:text-6xl lg:text-7xl">
+            <h1 className="mt-10 text-4xl font-medium leading-tight text-white md:text-6xl lg:text-7xl">
               Professional Kitchen Solutions
             </h1>
 
