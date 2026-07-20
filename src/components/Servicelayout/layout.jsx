@@ -4,7 +4,7 @@ import planning1 from "../../assets/service/planning1.jpg";
 import planning2 from "../../assets/service/planning2.jpg";
 import planning3 from "../../assets/service/planning3.jpg";
 
-import fab1 from "../../assets/Fab/fab1.png";
+import fab1 from "../../assets/Fab/fab1.JPG";
 import fab2 from "../../assets/Fab/fab2.png";
 import fab3 from "../../assets/Fab/fab3.png";
 

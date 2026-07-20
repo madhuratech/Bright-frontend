@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import cook from "../assets/Banners/Cooking.png";
 
 
 //ce
@@ -81,7 +81,7 @@ const Cooking = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${cook})`,
                     }}
                 />
 

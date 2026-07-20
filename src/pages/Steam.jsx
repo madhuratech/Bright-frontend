@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import steam from "../assets/Banners/steam.png";
 
 // Steam Counter
 import GlassTypeDoubleJacketedVessel from "../assets/steam/GlassTypeDoubleJacketedVessel.webp";
@@ -28,7 +28,7 @@ const Steam = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${steam})`,
                     }}
                 />
 

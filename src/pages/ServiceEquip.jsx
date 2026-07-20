@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import service from "../assets/Banners/service.png";
 
 
 //se
@@ -70,7 +70,7 @@ const ServiceEquip = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${service})`,
                     }}
                 />
 

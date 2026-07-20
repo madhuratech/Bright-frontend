@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import exhaust from "../assets/Banners/exhaust.png";
 
 //ee
 import Doubleskinexhausthoodwebp from "../assets/ee/Doubleskinexhausthoodwebp.webp"
@@ -34,7 +34,7 @@ const Exhaust = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${exhaust})`,
                     }}
                 />
 

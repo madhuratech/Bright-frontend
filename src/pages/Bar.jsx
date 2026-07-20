@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import bar from "../assets/Banners/Bar.png";
 
 // Arabian Food Machinery
 import Backbarcooler from "../assets/barunit/Backbarcooler.webp"
@@ -33,7 +33,7 @@ const Bar = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${bar})`,
                     }}
                 />
 

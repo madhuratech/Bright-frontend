@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import display from "../assets/Banners/Display.png";
 
 // Display Counter
 import chocolatedisplaycounter from "../assets/dc/chocolatedisplaycounter.webp"
@@ -41,7 +41,7 @@ const Display = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${display})`,
                     }}
                 />
 

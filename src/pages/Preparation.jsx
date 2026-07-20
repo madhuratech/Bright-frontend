@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import prepare from "../assets/Banners/preparation.png";
 
 // Arabian Food Machinery
 //pe
@@ -69,7 +69,7 @@ const Preparation = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${prepare})`,
                     }}
                 />
 

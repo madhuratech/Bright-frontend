@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import wash from "../assets/Banners/Washing.png";
 
 //we
 import Chickencleaningtablewithstorage from "../assets/we/Chickencleaningtablewithstorage.webp"
@@ -50,7 +50,7 @@ const Washing = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${wash})`,
                     }}
                 />
 

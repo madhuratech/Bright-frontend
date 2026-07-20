@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import Arabia from "../assets/Banners/Arabian.png"
 
 // Arabian Food Machinery
 import Alfahamgrill from "../assets/afm/Alfahamgrill.webp";
@@ -44,7 +44,7 @@ const Arabian = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${Arabia})`,
                     }}
                 />
 

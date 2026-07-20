@@ -31,7 +31,7 @@ export default function VisionMission() {
           }}
         >
           <span className="inline-flex items-center border border-[#0A59BE] text-[#0A59BE] rounded-full px-5 py-2 text-xs md:text-sm font-semibold uppercase tracking-[0.2em] mb-5">
-            Vision & Missio
+            Vision & Mission
           </span>
 
           <h1 className="text-[#0A59BE] text-4xl md:text-6xl font-medium leading-tight max-w-5xl mx-auto">
