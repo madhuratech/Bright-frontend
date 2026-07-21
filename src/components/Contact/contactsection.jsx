@@ -25,7 +25,7 @@ const ContactSection = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/send-email",
+        "http://api.brightkitchenind.com/send-email",
         {
           method: "POST",
           headers: {
