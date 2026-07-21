@@ -1,4 +1,5 @@
 import cook from "../assets/Banners/Cooking.png";
+import { useNavigate } from "react-router-dom";
 
 
 //ce
@@ -72,6 +73,7 @@ const productsData = {
 };
 
 const Cooking = () => {
+    const navigate = useNavigate();
     return (
         <>
             <Navbar />
@@ -101,7 +103,8 @@ const Cooking = () => {
 
                         </p>
 
-                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+                        onClick={()=>navigate("/contact")}>
                             Get Consultation
                         </button>
                     </div>

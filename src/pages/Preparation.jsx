@@ -1,4 +1,5 @@
 import prepare from "../assets/Banners/preparation.png";
+import { useNavigate } from "react-router-dom";
 
 // Arabian Food Machinery
 //pe
@@ -60,6 +61,7 @@ const productsData = {
 };
 
 const Preparation = () => {
+    const navigate= useNavigate();
     return (
         <>
             <Navbar />
@@ -88,7 +90,8 @@ const Preparation = () => {
 
                         </p>
 
-                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+                        onClick={()=>navigate("/contact")}>
                             Get Consultation
                         </button>
                     </div>

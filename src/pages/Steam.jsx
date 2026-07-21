@@ -1,4 +1,5 @@
 import steam from "../assets/Banners/steam.png";
+import {useNavigate} from "react-router-dom";
 
 // Steam Counter
 import GlassTypeDoubleJacketedVessel from "../assets/steam/GlassTypeDoubleJacketedVessel.webp";
@@ -19,6 +20,7 @@ const productsData = {
 };
 
 const Steam = () => {
+    const navigate = useNavigate();
     return (
         <>
             <Navbar/>
@@ -46,7 +48,8 @@ const Steam = () => {
                             Explore premium steam equipment designed for commercial kitchens, delivering efficient steaming, reliable performance, energy savings, and consistent cooking results every day.
                         </p>
 
-                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+                        onClick={()=>navigate("/contact")}>
                             Get Consultation
                         </button>
                     </div>

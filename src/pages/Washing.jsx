@@ -1,4 +1,5 @@
 import wash from "../assets/Banners/Washing.png";
+import { useNavigate } from "react-router-dom";
 
 //we
 import Chickencleaningtablewithstorage from "../assets/we/Chickencleaningtablewithstorage.webp"
@@ -41,6 +42,7 @@ const productsData = {
 };
 
 const Washing = () => {
+    const navigate = useNavigate("/contact")
     return (
         <>
             <Navbar/>
@@ -68,7 +70,8 @@ const Washing = () => {
                            Keep your commercial kitchen clean and efficient with washing equipment designed for faster cleaning, better hygiene, and dependable daily performance.
                         </p>
 
-                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+                        onClick={()=>navigate("/contact")}>
                             Get Consultation
                         </button>
                     </div>

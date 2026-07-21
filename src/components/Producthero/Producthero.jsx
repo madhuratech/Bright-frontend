@@ -1,6 +1,8 @@
 import slide5 from "../../assets/hero/slide5.png";
+import { useNavigate } from "react-router-dom";
 
 const ConsultantHero = () => {
+  const navigate = useNavigate();
   return (
     <section className="relative min-h-[60vh] sm:min-h-[70vh] lg:min-h-[80vh] flex items-center overflow-hidden">
       
@@ -30,7 +32,8 @@ const ConsultantHero = () => {
           </p>
 
           {/* Button */}
-          <button className="mt-6 sm:mt-8 bg-[#0b57d0] text-white px-6 sm:px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-all duration-300">
+          <button className="mt-6 sm:mt-8 bg-[#0b57d0] text-white px-6 sm:px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-all duration-300"
+          onClick={()=>navigate("/contact")}>
             Get Consultation
           </button>
 

@@ -1,6 +1,8 @@
 import slide3 from "../../assets/hero/slide3.png";
+import { useNavigate } from "react-router-dom";
 
 const ContactHero = () => {
+  const navigate = useNavigate();
   return (
     <section className="relative min-h-[70vh] flex items-center overflow-hidden">
 
@@ -26,7 +28,8 @@ const ContactHero = () => {
             Reach out for commercial kitchen installation, maintenance, servicing, and technical support solutions designed for reliable industrial performance.
           </p>
 
-          <button className="mt-4 bg-[#0b57d0] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+          <button className="mt-4 bg-[#0b57d0] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+          onClick={()=>navigate("/contact")}>
             Get in Touch
           </button>
         </div>

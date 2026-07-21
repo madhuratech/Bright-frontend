@@ -1,4 +1,5 @@
 import bar from "../assets/Banners/Bar.png";
+import { useNavigate } from "react-router-dom";
 
 // Arabian Food Machinery
 import Backbarcooler from "../assets/barunit/Backbarcooler.webp"
@@ -24,6 +25,7 @@ const productsData = {
 };
 
 const Bar = () => {
+    const navigate = useNavigate();
     return (
         <>
             <Navbar />
@@ -51,7 +53,8 @@ const Bar = () => {
                             Create a stylish and efficient beverage station with premium bar units designed for smooth service, durability, and everyday commercial use.
                         </p>
 
-                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+                        onClick={()=>navigate("/contact")}>
                             Get Consultation
                         </button>
                     </div>

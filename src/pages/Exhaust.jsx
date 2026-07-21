@@ -1,4 +1,5 @@
 import exhaust from "../assets/Banners/exhaust.png";
+import { useNavigate } from "react-router-dom";
 
 //ee
 import Doubleskinexhausthoodwebp from "../assets/ee/Doubleskinexhausthoodwebp.webp"
@@ -25,6 +26,7 @@ const productsData = {
 };
 
 const Exhaust = () => {
+    const navigate = useNavigate();
     return (
         <>
             <Navbar/>
@@ -53,7 +55,8 @@ const Exhaust = () => {
                             safer, and more comfortable workspace.
                         </p>
 
-                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+                        onClick={()=>navigate("/contact")}>
                             Get Consultation
                         </button>
                     </div>

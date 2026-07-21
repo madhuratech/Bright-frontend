@@ -1,4 +1,5 @@
 import display from "../assets/Banners/Display.png";
+import { useNavigate } from "react-router-dom";
 
 // Display Counter
 import chocolatedisplaycounter from "../assets/dc/chocolatedisplaycounter.webp"
@@ -32,6 +33,7 @@ const productsData = {
 };
 
 const Display = () => {
+    const navigate = useNavigate();
     return (
         <>
             <Navbar />
@@ -59,7 +61,8 @@ const Display = () => {
                             Showcase your products with stylish display counters designed to keep food fresh, attract customers, and enhance every retail or dining space
                         </p>
 
-                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+                        onClick={()=>navigate("/contact")}>
                             Get Consultation
                         </button>
                     </div>

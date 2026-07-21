@@ -1,4 +1,5 @@
 import service from "../assets/Banners/service.png";
+import { useNavigate } from "react-router-dom";
 
 
 //se
@@ -61,6 +62,7 @@ const productsData = {
 };
 
 const ServiceEquip = () => {
+    const navigate = useNavigate();
     return (
         <>
             <Navbar/>
@@ -89,7 +91,8 @@ const ServiceEquip = () => {
 
                         </p>
 
-                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+                        onClick={()=>navigate("/contact")}>
                             Get Consultation
                         </button>
                     </div>

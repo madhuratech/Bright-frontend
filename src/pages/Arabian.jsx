@@ -1,4 +1,5 @@
 import Arabia from "../assets/Banners/Arabian.png"
+import { useNavigate } from "react-router-dom";
 
 // Arabian Food Machinery
 import Alfahamgrill from "../assets/afm/Alfahamgrill.webp";
@@ -35,6 +36,7 @@ const productsData = {
 };
 
 const Arabian = () => {
+    const navigate = useNavigate();
     return (
         <>
             <Navbar />
@@ -63,7 +65,8 @@ const Arabian = () => {
                             deliver dependable performance for commercial kitchens.
                         </p>
 
-                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
+                        <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300"
+                        onClick={()=>navigate("/contact")}>
                             Get Consultation
                         </button>
                     </div>
