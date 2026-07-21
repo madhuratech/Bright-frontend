@@ -1,16 +1,18 @@
 import { useEffect, useState } from "react";
+import (useNavigate)
 
 // Slider Images
 import slide1 from "../../assets/hero/slide1.png";
 import slide2 from "../../assets/hero/slide2.png";
 import slide3 from "../../assets/hero/slide3.png";
 import slide4 from "../../assets/hero/slide4.png";
+import { useNavigate } from "react-router-dom";
 
 const slides = [slide1, slide2, slide3, slide4];
 
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-
+  const navigate = useNavigate();
   // Auto Background Slider
   useEffect(() => {
     const interval = setInterval(() => {
@@ -71,11 +73,13 @@ const HeroSection = () => {
             {/* Buttons */}
             <div className="mt-10 flex flex-wrap gap-4">
 
-              <button className="rounded-full bg-[#0b57d0] px-8 py-3 font-medium text-white transition duration-300 hover:bg-blue-700">
+              <button className="rounded-full bg-[#0b57d0] px-8 py-3 font-medium text-white transition duration-300 hover:bg-blue-700"
+             onClick={()=>navigate("/contact")} >
                 Book a Consultation
               </button>
 
-              <button className="rounded-full border border-white px-8 py-3 font-medium text-white transition duration-300 hover:bg-white hover:text-black">
+              <button className="rounded-full border border-white px-8 py-3 font-medium text-white transition duration-300 hover:bg-white hover:text-black"
+              onClick={()=>navigate("/products")}>
                 View Products
               </button>
 

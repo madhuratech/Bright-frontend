@@ -22,9 +22,9 @@ const Overview = () => {
             </h2>
 
             <p className="mt-6 text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
-              Bright Industries is a trusted manufacturer of commercial kitchen
-              systems, stainless steel fabrication products, and industrial
-              utility solutions designed to meet modern operational demands.
+              Bright Industries is a trusted manufacturer of commercial kitchen systems,
+              stainless steel fabrication products, CNC products, and industrial utility solutions
+              designed to meet modern operational demands.
               With a focus on durability, hygiene, precision engineering, and
               long-term performance, we deliver customized solutions for hotels,
               hospitals, institutions, catering facilities, and industrial
@@ -34,7 +34,7 @@ const Overview = () => {
 
           {/* Right Image */}
           <div className="relative flex justify-center lg:justify-end">
-            
+
             <div className="relative w-full max-w-[750px]">
 
               {/* Main Image */}
