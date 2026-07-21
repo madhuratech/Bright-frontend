@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import exhaust from "../assets/Banners/exhaust.png";
 
 //ee
 import Doubleskinexhausthoodwebp from "../assets/ee/Doubleskinexhausthoodwebp.webp"
@@ -34,7 +34,7 @@ const Exhaust = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${exhaust})`,
                     }}
                 />
 
@@ -44,13 +44,13 @@ const Exhaust = () => {
                 {/* Content */}
                 <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12">
                     <div className="max-w-3xl">
-                        <h1 className="text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+                        <h1 className="mt-10 text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
                             Exhaust Equipments
                         </h1>
 
                         <p className="mt-6 max-w-xl text-white text-sm sm:text-base md:text-lg leading-relaxed">
-                            Offering expert guidance for planning efficient commercial
-                            kitchens tailored to your specific requirements.
+                            Enhance your kitchen with advanced exhaust equipment that removes heat, smoke, and grease while creating a cleaner,
+                            safer, and more comfortable workspace.
                         </p>
 
                         <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
@@ -65,27 +65,25 @@ const Exhaust = () => {
                 <div className="max-w-7xl mx-auto px-6 lg:px-12">
                     <h2 className="text-[#0057D9] font-light leading-tight">
                         <span className="block text-4xl md:text-5xl lg:text-6xl">
-                            Commercial Kitchen Equipment
+                            Smart 
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Manufacturers & Stainless Steel
+                            Exhaust Solutions for
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Fabrication Experts
+                            Commercial Kitchens
                         </span>
                     </h2>
 
                     <div className="mt-8 max-w-5xl">
                         <p className="text-[#555555] text-sm md:text-base leading-relaxed">
-                            Bright Industries delivers precision-engineered commercial
-                            kitchen equipment and stainless steel fabrication solutions
-                            built for durability, hygiene, and operational efficiency.
-                            From industrial cooking systems to custom fabrication projects,
-                            our products are designed to support high-volume commercial
-                            environments across hospitality, healthcare, institutional,
-                            and industrial sectors.
+                            A well-designed exhaust system is essential for maintaining a safe and efficient kitchen environment.
+                            At Bright Industries, we offer high-performance exhaust equipment that effectively controls smoke, steam,
+                            heat, and airborne grease. Designed for restaurants, hotels, cloud kitchens, cafés, and catering businesses,
+                            our solutions improve air circulation, support hygiene standards, and ensure smooth kitchen operations with
+                            reliable, long-lasting performance.
                         </p>
                     </div>
                 </div>
@@ -106,9 +104,7 @@ const Exhaust = () => {
                             </h2>
 
                             <p className="mt-4 max-w-3xl mx-auto text-[#666666] leading-relaxed">
-                                Discover our premium range of commercial kitchen equipment
-                                designed to deliver superior performance, durability, and
-                                operational efficiency.
+                                Premium exhaust equipment engineered to improve ventilation, enhance workplace safety, and maintain fresh, clean air in commercial kitchens.
                             </p>
                         </div>
 

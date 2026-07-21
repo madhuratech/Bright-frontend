@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import cook from "../assets/Banners/Cooking.png";
 
 
 //ce
@@ -81,7 +81,7 @@ const Cooking = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${cook})`,
                     }}
                 />
 
@@ -91,13 +91,14 @@ const Cooking = () => {
                 {/* Content */}
                 <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12">
                     <div className="max-w-3xl">
-                        <h1 className="text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+                        <h1 className="mt-10 text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
                             Cooking Equipments
                         </h1>
 
                         <p className="mt-6 max-w-xl text-white text-sm sm:text-base md:text-lg leading-relaxed">
-                            Offering expert guidance for planning efficient commercial
-                            kitchens tailored to your specific requirements.
+                            Equip your commercial kitchen with premium cooking equipment designed for faster preparation,
+                            consistent cooking, and dependable performance in demanding environments.
+
                         </p>
 
                         <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
@@ -112,27 +113,25 @@ const Cooking = () => {
                 <div className="max-w-7xl mx-auto px-6 lg:px-12">
                     <h2 className="text-[#0057D9] font-light leading-tight">
                         <span className="block text-4xl md:text-5xl lg:text-6xl">
-                            Commercial Kitchen Equipment
+                            Advanced  
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Manufacturers & Stainless Steel
+                            Cooking Equipment for
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Fabrication Experts
+                            Every Commercial Kitchen
                         </span>
                     </h2>
 
                     <div className="mt-8 max-w-5xl">
                         <p className="text-[#555555] text-sm md:text-base leading-relaxed">
-                            Bright Industries delivers precision-engineered commercial
-                            kitchen equipment and stainless steel fabrication solutions
-                            built for durability, hygiene, and operational efficiency.
-                            From industrial cooking systems to custom fabrication projects,
-                            our products are designed to support high-volume commercial
-                            environments across hospitality, healthcare, institutional,
-                            and industrial sectors.
+                            Our cooking equipment is built to meet the needs of modern food service businesses,
+                            combining durability, precision, and efficiency. From high-volume restaurants and hotels
+                            to cafés and catering units, each product is engineered to deliver consistent
+                            cooking results while reducing operational effort. With quality craftsmanship
+                            and dependable performance, our solutions help kitchens operate smoothly every day.
                         </p>
                     </div>
                 </div>
@@ -153,9 +152,8 @@ const Cooking = () => {
                             </h2>
 
                             <p className="mt-4 max-w-3xl mx-auto text-[#666666] leading-relaxed">
-                                Discover our premium range of commercial kitchen equipment
-                                designed to deliver superior performance, durability, and
-                                operational efficiency.
+                               High-performance cooking equipment designed to improve productivity, ensure consistent results,
+                                and withstand the demands of commercial kitchens.
                             </p>
                         </div>
 

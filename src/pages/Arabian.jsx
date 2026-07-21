@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import Arabia from "../assets/Banners/Arabian.png"
 
 // Arabian Food Machinery
 import Alfahamgrill from "../assets/afm/Alfahamgrill.webp";
@@ -44,7 +44,7 @@ const Arabian = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${Arabia})`,
                     }}
                 />
 
@@ -54,13 +54,13 @@ const Arabian = () => {
                 {/* Content */}
                 <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12">
                     <div className="max-w-3xl">
-                        <h1 className="text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+                        <h1 className="mt-10 text-white  font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
                             Arabian Food Machinery
                         </h1>
 
                         <p className="mt-6 max-w-xl text-white text-sm sm:text-base md:text-lg leading-relaxed">
-                            Offering expert guidance for planning efficient commercial
-                            kitchens tailored to your specific requirements.
+                            Discover high-quality Arabian food machinery built to simplify food preparation, enhance productivity, and
+                            deliver dependable performance for commercial kitchens.
                         </p>
 
                         <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
@@ -75,27 +75,24 @@ const Arabian = () => {
                 <div className="max-w-7xl mx-auto px-6 lg:px-12">
                     <h2 className="text-[#0057D9] font-light leading-tight">
                         <span className="block text-4xl md:text-5xl lg:text-6xl">
-                            Commercial Kitchen Equipment
+                            Premium 
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Manufacturers & Stainless Steel
+                            Arabian Food Machinery
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Fabrication Experts
+                            for Modern Kitchens
                         </span>
                     </h2>
 
                     <div className="mt-8 max-w-5xl">
                         <p className="text-[#555555] text-sm md:text-base leading-relaxed">
-                            Bright Industries delivers precision-engineered commercial
-                            kitchen equipment and stainless steel fabrication solutions
-                            built for durability, hygiene, and operational efficiency.
-                            From industrial cooking systems to custom fabrication projects,
-                            our products are designed to support high-volume commercial
-                            environments across hospitality, healthcare, institutional,
-                            and industrial sectors.
+                            As a leading supplier of Arabian food machinery, we offer reliable and high-performance equipment
+                            tailored to meet the demands of commercial kitchens. Our expert solutions combine advanced technology,
+                            durable construction, and efficient operation to support restaurants, hotels, bakeries, catering services,
+                            and food processing businesses with seamless productivity and long-lasting value.
                         </p>
                     </div>
                 </div>
@@ -116,9 +113,8 @@ const Arabian = () => {
                             </h2>
 
                             <p className="mt-4 max-w-3xl mx-auto text-[#666666] leading-relaxed">
-                                Discover our premium range of commercial kitchen equipment
-                                designed to deliver superior performance, durability, and
-                                operational efficiency.
+                                Premium Arabian food machinery engineered to improve efficiency, ensure reliable performance,
+                                and support smooth food preparation in commercial kitchens every day.
                             </p>
                         </div>
 

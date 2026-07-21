@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import aboutImage from "../../assets/about/aboutImage.png";
+import { useNavigate } from "react-router-dom"; 
 
 const containerVariants = {
   hidden: {},
@@ -43,6 +44,7 @@ const imageVariants = {
 };
 
 const AboutSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="bg-[#edf1f7] py-10 px-4 md:px-8">
       <motion.div
@@ -95,7 +97,7 @@ const AboutSection = () => {
               }}
               whileTap={{ scale: 0.97 }}
               className="bg-[#0A59BE] hover:bg-[#0847a5] text-white px-8 py-4 rounded-full font-semibold text-base shadow-md transition-colors"
-            >
+           onClick={()=>navigate("/profile")} >
               Discover More About Us
             </motion.button>
           </div>

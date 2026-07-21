@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import bar from "../assets/Banners/Bar.png";
 
 // Arabian Food Machinery
 import Backbarcooler from "../assets/barunit/Backbarcooler.webp"
@@ -33,7 +33,7 @@ const Bar = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${bar})`,
                     }}
                 />
 
@@ -48,8 +48,7 @@ const Bar = () => {
                         </h1>
 
                         <p className="mt-6 max-w-xl text-white text-sm sm:text-base md:text-lg leading-relaxed">
-                            Offering expert guidance for planning efficient commercial
-                            kitchens tailored to your specific requirements.
+                            Create a stylish and efficient beverage station with premium bar units designed for smooth service, durability, and everyday commercial use.
                         </p>
 
                         <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
@@ -63,28 +62,26 @@ const Bar = () => {
             <section className="bg-[#F0F4FA] py-16 lg:py-24">
                 <div className="max-w-7xl mx-auto px-6 lg:px-12">
                     <h2 className="text-[#0057D9] font-light leading-tight">
-                        <span className="block text-4xl md:text-5xl lg:text-6xl">
-                            Commercial Kitchen Equipment
+                        <span className="block text-4xl md:text-5xl lg:text-6xl mt-10">
+                            Bar Units 
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Manufacturers & Stainless Steel
+                            Designed for Exceptional
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Fabrication Experts
+                            Beverage Service
                         </span>
                     </h2>
 
                     <div className="mt-8 max-w-5xl">
                         <p className="text-[#555555] text-sm md:text-base leading-relaxed">
-                            Bright Industries delivers precision-engineered commercial
-                            kitchen equipment and stainless steel fabrication solutions
-                            built for durability, hygiene, and operational efficiency.
-                            From industrial cooking systems to custom fabrication projects,
-                            our products are designed to support high-volume commercial
-                            environments across hospitality, healthcare, institutional,
-                            and industrial sectors.
+                            A well-planned bar setup makes every drink service faster and more organized.
+                            At Bright Industries, we offer premium bar units that combine modern design with practical functionality.
+                            Built for hotels, restaurants, cafés, lounges, bars, and hospitality venues, our solutions provide smart storage,
+                            efficient workspaces, and lasting durability. Whether serving customers during peak hours or special events,
+                            our bar units help your team work efficiently while creating an impressive experience.
                         </p>
                     </div>
                 </div>
@@ -105,9 +102,7 @@ const Bar = () => {
                             </h2>
 
                             <p className="mt-4 max-w-3xl mx-auto text-[#666666] leading-relaxed">
-                                Discover our premium range of commercial kitchen equipment
-                                designed to deliver superior performance, durability, and
-                                operational efficiency.
+                                Premium bar units crafted for efficient beverage preparation, organized workspaces, and reliable performance in busy hospitality environments every day.
                             </p>
                         </div>
 

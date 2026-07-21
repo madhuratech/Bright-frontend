@@ -38,10 +38,16 @@ const Footer = () => {
             </h3>
 
             <ul className="space-y-3 sm:space-y-4 text-[#6B6B6B] text-sm sm:text-base">
-              <li>Steam Equipment</li>
-              <li>Cooking Equipment</li>
-              <li>Preparation Equipment</li>
-              <li>Bakery Equipment</li>
+              <li><a href="/arabianFoodmachinery" className="hover:text-[#0057C8]">Arabian Food Machinery</a></li>
+              <li><a href="/cookingEquipment" className="hover:text-[#0057C8]">Cooking Equipment</a></li>
+              <li><a href="/preparationEquipment" className="hover:text-[#0057C8]">Preparation Equipment</a></li>
+              <li><a href="/barCounter" className="hover:text-[#0057C8]">Bar Units</a></li>
+              <li><a href="/exhaustEquipment" className="hover:text-[#0057C8]">Exhaust Equipments</a></li>
+              <li><a href="/serviceEquipment" className="hover:text-[#0057C8]">Service Equipment</a></li>
+              <li><a href="/displayEquipment" className="hover:text-[#0057C8]">Display Counter</a></li>
+              <li><a href="/steamEquipment" className="hover:text-[#0057C8]">Steam Equipment</a></li>
+              <li><a href="/washingEquipment" className="hover:text-[#0057C8]">Washing Equipment</a></li>
+
             </ul>
           </div>
 
@@ -52,11 +58,12 @@ const Footer = () => {
             </h3>
 
             <ul className="space-y-3 sm:space-y-4 text-[#6B6B6B] text-sm sm:text-base">
-              <li>Exhaust Systems</li>
-              <li>Washing Equipment</li>
-              <li>SS Fabrication</li>
-              <li>Service Equipment</li>
-              <li>Turnkey Kitchen Projects</li>
+              <li>Kitchen Planning & Design</li>
+              <li>SS Fabrication & manufacturing</li>
+              <li>Installation & Commissioning</li>
+              <li>Maintenance & Technical Support</li>
+              <li>Exhaust & Ventilation Systems</li>
+              <li>Customized Kitchen Solutions</li>
             </ul>
           </div>
 

@@ -8,6 +8,7 @@ import Trolley from "../../assets/products/Trolley.webp";
 import Dishwasher from "../../assets/products/Dishwasher.webp";
 import Exhaust from "../../assets/products/exhaust.webp";
 import FadeInSection from "../Fade/FadeInSection";
+import { useNavigate } from "react-router-dom";
 
 const products = [
   {
@@ -37,6 +38,7 @@ const products = [
 ];
 
 const ProductCard = ({ item }) => {
+ 
   return (
     <div
       className="
@@ -89,6 +91,7 @@ const ProductCard = ({ item }) => {
 };
 
 const ProductSection = () => {
+   const navigate = useNavigate();
   return (
     <section className="overflow-hidden bg-[#E9EEF5] px-4 py-10 md:py-14">
       <div className="mx-auto max-w-7xl">
@@ -131,7 +134,7 @@ const ProductSection = () => {
                   hover:bg-[#084AA8]
                   active:scale-95
                 "
-              >
+                onClick={() => navigate("/products")}>
                 Browse Products
               </button>
             </div>

@@ -1,4 +1,4 @@
-import slide7 from "../assets/hero/slide7.png";
+import service from "../assets/Banners/service.png";
 
 
 //se
@@ -70,7 +70,7 @@ const ServiceEquip = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url(${slide7})`,
+                        backgroundImage: `url(${service})`,
                     }}
                 />
 
@@ -80,13 +80,13 @@ const ServiceEquip = () => {
                 {/* Content */}
                 <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12">
                     <div className="max-w-3xl">
-                        <h1 className="text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+                        <h1 className="mt-10 text-white font-extrabold leading-none tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
                             Service Equipments 
                         </h1>
 
                         <p className="mt-6 max-w-xl text-white text-sm sm:text-base md:text-lg leading-relaxed">
-                            Offering expert guidance for planning efficient commercial
-                            kitchens tailored to your specific requirements.
+                            Discover premium service equipment designed for commercial kitchens, ensuring efficient food service, durability, smooth operations, and an enhanced customer dining experience.
+
                         </p>
 
                         <button className="mt-8 bg-[#0057D9] text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300">
@@ -101,27 +101,24 @@ const ServiceEquip = () => {
                 <div className="max-w-7xl mx-auto px-6 lg:px-12">
                     <h2 className="text-[#0057D9] font-light leading-tight">
                         <span className="block text-4xl md:text-5xl lg:text-6xl">
-                            Commercial Kitchen Equipment
+                            Service Equipment 
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Manufacturers & Stainless Steel
+                            for Professional Food 
                         </span>
 
                         <span className="block text-4xl md:text-5xl lg:text-6xl mt-2">
-                            Fabrication Experts
+                            Service Excellence
                         </span>
                     </h2>
 
                     <div className="mt-8 max-w-5xl">
                         <p className="text-[#555555] text-sm md:text-base leading-relaxed">
-                            Bright Industries delivers precision-engineered commercial
-                            kitchen equipment and stainless steel fabrication solutions
-                            built for durability, hygiene, and operational efficiency.
-                            From industrial cooking systems to custom fabrication projects,
-                            our products are designed to support high-volume commercial
-                            environments across hospitality, healthcare, institutional,
-                            and industrial sectors.
+                            As a trusted supplier of commercial service equipment, we provide high-quality solutions designed for efficiency,
+                            durability, and reliable performance. Our experienced team offers innovative serving systems, customized equipment,
+                            and dependable support to help restaurants, hotels, cafés, catering services, and food businesses deliver
+                            exceptional service while maintaining smooth and efficient operations.
                         </p>
                     </div>
                 </div>
@@ -142,9 +139,7 @@ const ServiceEquip = () => {
                             </h2>
 
                             <p className="mt-4 max-w-3xl mx-auto text-[#666666] leading-relaxed">
-                                Discover our premium range of commercial kitchen equipment
-                                designed to deliver superior performance, durability, and
-                                operational efficiency.
+                                Reliable service equipment delivering efficient performance, lasting durability, and seamless food service for commercial kitchens every day.
                             </p>
                         </div>
 
