@@ -11,7 +11,6 @@ const ConsultantHero = () => {
           backgroundImage: `url(${slide5})`,
         }}
       />
-
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#3b3b3be6] via-[#00000099] to-[#00000033]" />
 
