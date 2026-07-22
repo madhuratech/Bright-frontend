@@ -22,7 +22,7 @@ const ConsultantHero = () => {
         <div className="max-w-xl lg:max-w-2xl">
           
           {/* Heading */}
-          <h1 className="text-white font-extrabold leading-[0.9] tracking-tight text-[48px] sm:text-[72px] md:text-[100px] lg:text-[140px]">
+          <h1 className="mt-10 text-white font-extrabold leading-[0.9] tracking-tight text-[48px] sm:text-[72px] md:text-[100px] lg:text-[140px]">
             Consultant
           </h1>
 
